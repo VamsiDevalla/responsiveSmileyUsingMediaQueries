@@ -1,0 +1,48 @@
+body {
+	background: yellow;
+}
+
+.smiley{
+	margin: 0 auto;
+	position: relative;
+	width: 20em;
+	height: 20em;
+	border-radius: 50%;
+	background-color: red;
+}
+
+.eye{
+	margin-top: 25%;
+	position: absolute;
+	width: 20%;
+	height: 20%;
+	border-radius: 50%;
+	background-color: black;
+}
+
+.left{
+	margin-left: 20%;
+}
+
+.right{
+	margin-left: 60%;
+}
+
+.mouth{
+	margin-top: 65%;
+	position: absolute;
+	width: 25%;
+	height: 10%;
+	border-radius: 40%;
+	background-color: black;
+	margin-left: 37%;
+}
+
+@media (min-width: 600px) {
+	body{
+		background: red;
+	}
+	.smiley{
+		background-color: yellow;
+	}
+}
